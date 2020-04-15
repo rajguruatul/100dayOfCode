@@ -58,8 +58,16 @@ also was able to post "HelloWorld" status on Homepage.
 
 
 	
-------------------------------
-
+----------------
+Day 2/100:
+----------------
+Code:
+	
+	Started again with CORE JAVA concepts
+	(Referring Bhanu Paratp's Core Java tutuorials)
+	 Created java function to read Excel File using javaApache POI jars
+	 
+--------------------------------
 
 
 	
