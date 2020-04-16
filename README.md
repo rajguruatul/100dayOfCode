@@ -67,8 +67,21 @@ Code:
 	(Referring Bhanu Paratp's Core Java tutuorials)
 	 Created java function to read Excel File using javaApache POI jars
 	 
+----------------
+Day 3/100:
+----------------
+Code:
+	- Learned TestNG implementation 
+		@test level - using @Test tag in java class
+		@Class level - using @Listeners (listeners.TestNGListener.class) before Javal class declaration
+		@Class level - using multiple class tags
+						    <class name="listeners.TestNGDemo"></class>
+							<class name="listeners.TestNGDemo1"></class>
+		@Package level - using the TestNG XML file
+		Used @DataProvider(name="testData") and     @Test(dataProvider = "testData") for ExcelUtils
+	 
 --------------------------------
-
+ 
 
 	
 
