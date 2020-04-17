@@ -80,6 +80,14 @@ Code:
 		@Package level - using the TestNG XML file
 		Used @DataProvider(name="testData") and     @Test(dataProvider = "testData") for ExcelUtils
 	 
+----------------
+Day 4/100:
+----------------
+Code:
+	- Learned TestNG implementation 
+			- learned to use priority parameter and
+			- also how to use parameterized values for tests
+	 
 --------------------------------
  
 
