@@ -88,6 +88,18 @@ Code:
 			- learned to use priority parameter and
 			- also how to use parameterized values for tests
 	 
+----------------
+Day 5/100:
+----------------
+Code:
+		More on TestNG - Groups:
+			parallel Execution 
+			executing tests from groups
+			include / exclude groups
+			creating MetaGroups
+			using regular expression
+			using groups at class level
+	 
 --------------------------------
  
 
