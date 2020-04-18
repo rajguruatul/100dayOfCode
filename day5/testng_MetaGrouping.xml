@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"  name="testNG_grouping">
+        <groups>
+            <define name="Regression">
+                <include name="smoke"></include>
+                <include name="sanity"></include>
+                <include name="regression"></include>
+            </define>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNG.TestNG_MetaGroups"></class>
+        </classes>
+    </test>
+</suite>

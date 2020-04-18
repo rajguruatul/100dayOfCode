@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+    <test verbose="2" preserve-order="true" name="chrome_test">
+    <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="TestNG.TestNG_Parameter"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="firefox_test">
+        <parameter name="browserName" value="firefox"></parameter>
+        <classes>
+            <class name="TestNG.TestNG_Parameter"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="IE_test">
+        <parameter name="browserName" value="ie"></parameter>
+        <classes>
+            <class name="TestNG.TestNG_Parameter"></class>
+        </classes>
+    </test>
+</suite>
