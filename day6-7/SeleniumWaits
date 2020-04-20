@@ -52,14 +52,48 @@ Element.click();
 5) No need to create object of WebDriverWait again and again if you want similar timeout . If you need another timeout duration or driver instance, go for new instance of WebDriverWait.
 6) We can specify timeout only in seconds. Other units of time are not possible.
 7) You can reduce test execution time by using explicit wait.
+
 8) We can customized polling time or ignore other exceptions as well using WebDriverWait instance. For example:
 	WebDriverWait wait= new WebDriverWait(driver, 30);
 	wait.pollingEvery(1, TimeUnit.MICROSECONDS);
 	wait.ignoring(ElementNotVisibleException.class);
 	
+	
+In order to declare explicit wait, one has to use “ExpectedConditions”. The following Expected Conditions can be used in Explicit Wait.
+
+	alertIsPresent()
+	elementSelectionStateToBe()
+	elementToBeClickable()
+	elementToBeSelected()
+	frameToBeAvaliableAndSwitchToIt()
+	invisibilityOfTheElementLocated()
+	invisibilityOfElementWithText()
+	presenceOfAllElementsLocatedBy()
+	presenceOfElementLocated()
+	textToBePresentInElement()
+	textToBePresentInElementLocated()
+	textToBePresentInElementValue()
+	titleIs()
+	titleContains()
+	visibilityOf()
+	visibilityOfAllElements()
+	visibilityOfAllElementsLocatedBy()
+	visibilityOfElementLocated()
+	
 ---------------------------------------------------
 D) FluentWait:
 ---------------------------------------------------
+
+
+  // Waiting 30 seconds for an element to be present on the page, checking
+   // for its presence once every 5 seconds.
+   Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+       .withTimeout(30, SECONDS)
+       .pollingEvery(5, SECONDS)
+       .ignoring(NoSuchElementException.class);
+
+
+
 Syntax1 :
 
 WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
