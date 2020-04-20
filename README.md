@@ -100,8 +100,27 @@ Code:
 			using regular expression
 			using groups at class level
 	 
---------------------------------
- 
+----------------
+ Day 6/100:
+----------------
+Code:
+		TestNG Dependencies
+		@Ignore tag
+		Rerun failed tests
+		
 
-	
+----------------
+ Day 7/100:
+----------------
+Code:
+	Selenium Wait:
+		Thread.sleep
+		Implicit wait
+		Explicit wait
+		Fluent wait
+		
+		All waits are implemented using examples
+
+		
+		
 
