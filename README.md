@@ -121,6 +121,16 @@ Code:
 		
 		All waits are implemented using examples
 
+----------------
+ Day 8/100:
+----------------
+Code:
+	Headless Browser
+	Automation Engineer Level1
+	
+
+	
+
 		
 		
 
