@@ -1,0 +1,5 @@
+ControlFocus("Open","","Edit1")
+Sleep(3000)
+ControlSetText("Open","","Edit1","C:\Users\USER\Desktop\100days\100daysOfCode_dailyLog.txt")
+sleep(3000)
+ControlClick("Open","","Button1")
