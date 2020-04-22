@@ -128,6 +128,18 @@ Code:
 	Headless Browser
 	Automation Engineer Level1
 	
+----------------
+ Day 9/100:
+----------------
+Code:
+	AutoIt example - used javascriptExecutor to click a <input> tag
+	Bhanu Pratap videos for 
+		Constructor
+		this keyword
+		static keyword
+		
+	
+	
 
 	
 
