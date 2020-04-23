@@ -138,6 +138,19 @@ Code:
 		this keyword
 		static keyword
 		
+----------------		
+Day 10/100: #100DaysOfCode
+----------------
+Code:
+			Implemented #Actions class for handling mouse and keyboard events :
+			- DoubleClick
+			- RighClick
+			- DragAndDrop
+			- ToolTip
+			- Keyboard commands
+
+also created a quickie info page for #Actions class - zoom for details
+		
 	
 	
 
