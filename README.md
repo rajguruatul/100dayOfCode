@@ -151,8 +151,11 @@ Code:
 
 also created a quickie info page for #Actions class - zoom for details
 		
-	
-	
+----------------		
+Day 11-12/100: #100DaysOfCode
+----------------
+Code:
+		Working on datePicker 
 
 	
 
